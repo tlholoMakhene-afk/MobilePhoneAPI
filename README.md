@@ -4,11 +4,11 @@ Restful API on Mobile Phones
 
 # Contents for .htacess file
 
-# Turn rewrite engine on
+#Turn rewrite engine on
 Options +FollowSymlinks
 RewriteEngine on
 
-# map neat URL to internal URL
+#map neat URL to internal URL
 RewriteRule ^mobile/list/$   RestController.php?page_key=list [nc,qsa]
 RewriteRule ^mobile/list$   RestController.php?page_key=list [nc,qsa]
 
